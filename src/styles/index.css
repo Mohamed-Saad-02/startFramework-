@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-layout {
+  grid-template-rows: auto 1fr auto;
+}
+
+.app-content > section {
+  min-height: calc(100vh - 20px);
+  @apply pt-[106px];
+}
+
+.container {
+  @apply mx-auto sm:w-10/12;
+}
